@@ -1,0 +1,14 @@
+<h1>Url#index</h1>
+
+<%= form_tag("/url/create", method: :post) do |f| %>
+<%= text_field_tag :name %>
+<%= submit_tag %>
+<% end %>
+
+<% @urls.each do |u| %>
+<%= link_to "url/#{u.short_url}", "url/#{u.short_url}" %>
+<br>
+<% end %>
+
+
+<p>Find me in app/views/url/index.html.erb</p>
