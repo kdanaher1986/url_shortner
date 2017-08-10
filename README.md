@@ -21,10 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
-# url_shortner
-# url_shortner
-# url_shortner
-# url_shortner
-# url_shortner
-# url_shortner
+Rails 5 app project from Wyncode to create a URL shortner using Ruby. This involved creating a randomize method for the new url development inputted from user, features include forms created through scaffolding.
